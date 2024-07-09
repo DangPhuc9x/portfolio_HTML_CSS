@@ -1,0 +1,28 @@
+*{      /* Properties apply for all HTML element */
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+}
+
+p{
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+body{
+    /* BACKGROUND IMAGE PRESET */
+    background-color: rgb(33, 70, 105);
+    background-image: url("../images/webpage_wallpaper.jpg");
+    background-repeat: no-repeat; /* Not repeat image to fill the gap */
+    background-position: center; /* Place image center of the page */
+    background-attachment: fixed; /* Scroll with webpage of fixed */
+    background-size: cover;
+
+    /* PLACE THE CONTENT IN CENTER OF THE WINDOW */
+    position: absolute; /* To others relative object can relate */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.right-part
+{
+    background-color: rgb(230, 230, 230);
+
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+}

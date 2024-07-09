@@ -1,0 +1,32 @@
+.left-part
+{
+    background-color: lightgray;
+    
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-image
+{
+    width: 100px;
+    box-shadow: 2px 2px 3px rgb(158, 158, 158);
+}
+
+.fullname,
+.image-container,
+.personal-info,
+.language
+{
+    margin-bottom: 8px;
+}

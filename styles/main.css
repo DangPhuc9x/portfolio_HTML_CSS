@@ -1,0 +1,18 @@
+.main
+{
+    height: 500px;
+    width: 500px;
+
+    box-shadow: 2px 2px 3px rgb(43, 43, 43);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.info-title
+{
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 2px;
+}
